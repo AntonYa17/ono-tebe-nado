@@ -13,7 +13,6 @@ body {
     width: 1052px;
 }
 
-/* header__menu - список ссылок */
 .header__menu {
     display: flex;
     padding-top: 44px;
@@ -21,13 +20,11 @@ body {
     letter-spacing: 0.18px;
 }
 
-/* header__menu-list - список ссылок */
 .header__menu-list {
     display: flex;
     gap: 32px;
 }
 
-/* header__menu-item - пункт списка ссылок */
 .header__menu-item {
     list-style-type: circle;
     text-underline-offset: 4px;
@@ -84,7 +81,7 @@ body {
     color: white;
     text-transform: uppercase;
     font-size: 100px;
-    font-style normal;
+    font-style: normal;
     font-weight: 700;
     line-height: 100%;
 }
